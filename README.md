@@ -1,4 +1,4 @@
-#jar包自动化发布
+# jar包自动化发布
 
 
 ## 说明
@@ -14,7 +14,7 @@
    - 检查这个项目的进程是否存在 (存在会执行 kill -9)
    - java ${jvmOpts} -jar lib 1>stdout.log 2>stderr.log
     
-##例子 :
+## 例子 :
 
 
 - npm install pubjar
@@ -72,7 +72,7 @@ pubjar({
 </plugin>
 ```
 
-###distribution.xml
+## distribution.xml
  - assembly ID 必须为deploy 
  - format 必须为tar.gz
 ```
